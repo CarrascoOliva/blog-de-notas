@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+
+    float: right;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: pink;
+
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+nav button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #333333;
+    background-color: #f0f0f0;
+    color: #333333;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    background-color: pink;
+    padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  width: 80%; 
+  margin: 0 auto; 
+}
+
+.note {
+    background-color: pink;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 5px 5px 5px #cccccc;
+    display: inline-block;
+}
+
+.note-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0, 0, 5px black;
+}
+
+.note-date {
+    font-style: italic;
+    font-size: 14px;
+    padding: 5px;
+    color: #999999;
+}
+
+.note-content {
+    font-size: 16px;
+    color: black;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+    font-size: 16px;
+    color: black;
+    background-color: pink;
+}
+
+#addNote {
+    text-align: right;
+    font-size: 16px;
+    cursor: pointer;
+}
